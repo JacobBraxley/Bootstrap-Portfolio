@@ -1,0 +1,176 @@
+#profilePic {
+  float: left;
+  height: 200px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+/* 
+h1, h2, h3, h4, h5, h6 {
+    color: #4aaaa5;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.mainSection {
+  color: #777777;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+  position: relative;
+  display: block;
+  background-color: white;
+  width: 960px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  padding-top: 40px;
+  height: fit-content;
+}
+
+
+.mainAndSides {
+  display:flex;
+  height: -webkit-fill-available;
+  align-self: auto;
+  background-image: url(../images/prism.png);
+}
+
+header {
+  top: 0;
+  height: 110px;
+  width: 100%;
+  align-content: center;
+  border-bottom: 2px solid #666666;
+  margin-bottom: 2px;
+  position: relative;
+}
+
+.headerContent
+{
+  position: relative;
+  display: block;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.fDivider {
+  border-top: 5px solid #4aaaa5;  
+  width: 100%;
+  margin-bottom: 12px;
+}
+footer {
+  background-color: #666666;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  padding-bottom: 8px;  
+  overflow: hidden;
+}
+
+body {
+  margin:0px;
+}
+
+
+#name {
+  background: #4aaaa5;
+  color: white;
+  float: left;
+  width: 270px;
+  text-align: center;
+  padding: 30px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+#profilePic {
+  float: left;
+  height: 200px;
+  margin: 10px;
+  margin-left: 0px;
+}
+
+.menulinks {
+  color: #777777;
+  font-size: 24px;
+  text-decoration: none;
+  float: right;
+  margin:32px 16px 32px 16px;
+}
+.vertLine {
+  border-right: 1px solid #777777;  
+  height: 26px;
+  float: right;
+  opacity: 0.2;
+  margin-top: 38px;
+}
+.horizontalLine{
+  border-top: 1px solid #777777;  
+  width: auto;
+  margin: 5px;
+}
+.clearFloats{
+  clear: both;
+}
+h1 {
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+.wide {
+  width: 100%;
+  margin: 20px;
+  margin-left: 0px;
+}
+
+#msgEntry {
+  width: 100%;
+  height: 400px;
+  margin: 20px;
+  margin-left: 0px;
+}
+
+#mainContent {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 960px;
+}
+
+a:link { 
+    color: #777777; 
+}
+a:visited { 
+    color: #5d2e16; 
+}
+a:hover { 
+    color: #aa6b4a; 
+}
+a:active { 
+    color: #84f6f1; 
+}
+
+#submitButton:hover
+{
+    background-color: #666666;
+}
+
+.imgButtonPair {
+  margin: 20px;
+  margin-bottom: 60px;
+}
+.imgButtonStyle {
+  background: #4aaaa5;
+  color: white;
+  position: relative;
+  width: 200px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  bottom: 60px;
+  margin-bottom: -60px;
+}
+.imageSection {
+  display: flex;
+  flex-wrap: wrap;
+} */
