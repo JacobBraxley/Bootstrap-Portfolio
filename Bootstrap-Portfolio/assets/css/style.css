@@ -1,12 +1,14 @@
-#profilePic {
-  float: left;
-  height: 200px;
-  margin: 10px;
-  margin-left: 0px;
+
+#name {
+  background: #4aaaa5;
+  color: white;
+  width: 300px;
+  padding: 30px;
+  font-size: 32px;
+  font-weight: bold;
 }
 
-/* 
-h1, h2, h3, h4, h5, h6 {
+ h1, h2, h3, h4, h5, h6 {
     color: #4aaaa5;
     font-family: Georgia, Times, 'Times New Roman', serif;
 }
@@ -14,79 +16,31 @@ h1, h2, h3, h4, h5, h6 {
 .mainSection {
   color: #777777;
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
-  position: relative;
-  display: block;
   background-color: white;
-  width: 960px;
-  margin: 0 auto;
   margin-top: 50px;
   padding: 20px;
   padding-top: 40px;
-  height: fit-content;
-}
-
-
-.mainAndSides {
-  display:flex;
-  height: -webkit-fill-available;
-  align-self: auto;
-  background-image: url(../images/prism.png);
-}
-
-header {
-  top: 0;
-  height: 110px;
-  width: 100%;
-  align-content: center;
-  border-bottom: 2px solid #666666;
-  margin-bottom: 2px;
-  position: relative;
-}
-
-.headerContent
-{
-  position: relative;
-  display: block;
-  width: 960px;
-  margin: 0 auto;
-}
-
-.fDivider {
-  border-top: 5px solid #4aaaa5;  
-  width: 100%;
-  margin-bottom: 12px;
+  
+  flex:1 1 auto;
 }
 footer {
   background-color: #666666;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
   text-align: center;
   font-size: 12px;
   color: white;
-  padding-bottom: 8px;  
-  overflow: hidden;
+  padding-bottom: 8px;
+  border-top: 5px solid #4aaaa5; 
 }
 
-body {
-  margin:0px;
-}
-
-
-#name {
-  background: #4aaaa5;
-  color: white;
-  float: left;
-  width: 270px;
-  text-align: center;
-  padding: 30px;
-  font-size: 32px;
-  font-weight: bold;
+ .bodyContainer {
+  max-width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  background-image: url(../images/prism.png);
 }
 
 #profilePic {
   float: left;
-  height: 200px;
+  width: 200px;
   margin: 10px;
   margin-left: 0px;
 }
@@ -95,16 +49,21 @@ body {
   color: #777777;
   font-size: 24px;
   text-decoration: none;
-  float: right;
-  margin:32px 16px 32px 16px;
 }
 .vertLine {
   border-right: 1px solid #777777;  
   height: 26px;
-  float: right;
+  width: 1px;
   opacity: 0.2;
-  margin-top: 38px;
+  margin-left:5px;
+  margin-right: 5px;
 }
+.navbar {
+  border-bottom: 2px solid #666666;
+  margin-bottom: 2px;
+
+}
+
 .horizontalLine{
   border-top: 1px solid #777777;  
   width: auto;
@@ -173,4 +132,4 @@ a:active {
 .imageSection {
   display: flex;
   flex-wrap: wrap;
-} */
+}
